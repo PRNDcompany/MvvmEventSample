@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_step1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step1: LiveData + Event" />
+
+    <Button
+        android:id="@+id/btn_step2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step2: Single LiveData" />
+
+    <Button
+        android:id="@+id/btn_step3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step3: SharedFlow" />
+
+    <Button
+        android:id="@+id/btn_step4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step4: SharedFlow + Sealed Class" />
+
+    <Button
+        android:id="@+id/btn_step5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step5: SharedFlow + Sealed Class + LifeCycle" />
+
+
+    <Button
+        android:id="@+id/btn_step6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step6: EventFlow + Sealed Class + LifeCycle" />
+
+</LinearLayout>
