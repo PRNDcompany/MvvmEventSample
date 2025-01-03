@@ -50,4 +50,12 @@
         android:gravity="start|center_vertical"
         android:text="Step6: EventFlow + Sealed Class + LifeCycle" />
 
+
+    <Button
+        android:id="@+id/btn_step7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Step7: Channel + Sealed Class + LifeCycle" />
+
 </LinearLayout>
