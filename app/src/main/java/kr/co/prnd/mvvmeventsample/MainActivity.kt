@@ -10,6 +10,7 @@ import kr.co.prnd.mvvmeventsample.step3.Step3Activity
 import kr.co.prnd.mvvmeventsample.step4.Step4Activity
 import kr.co.prnd.mvvmeventsample.step5.Step5Activity
 import kr.co.prnd.mvvmeventsample.step6.Step6Activity
+import kr.co.prnd.mvvmeventsample.step7.Step7Activity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,6 +34,9 @@ class MainActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.btn_step6).setOnClickListener {
             startActivity(Step6Activity::class.java)
+        }
+        findViewById<Button>(R.id.btn_step7).setOnClickListener {
+            startActivity(Step7Activity::class.java)
         }
     }
 
